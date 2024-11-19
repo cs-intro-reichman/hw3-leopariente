@@ -80,10 +80,9 @@ public class Algebra {
 
 	// Returns the integer part of sqrt(x)
 	public static int sqrt(int x) {
-		double epsilon = 0.0001;
 		int result = 1;
 		while (pow(result, 2) < x) {
-			if (pow(result,2) + epsilon > x) return result; 
+			if (pow(result,2)  > x) return result; 
 			result = plus(result, 1);
 		}
 		return result;
