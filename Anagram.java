@@ -47,7 +47,7 @@ public class Anagram {
 	// which are left
 	// as is. For example, the string "What? No way!" becomes "whatnoway"
 	public static String preProcess(String str) {
-		String letters = "qwertyuiopasdfghjklzxcvbnm";
+		String letters = "qwertyuiopasdfghjklzxcvbnm ";
 		String processedString = "";
 		for (int i = 0; i < str.length(); i++) {
 			if (letters.indexOf(str.toLowerCase()) > -1) {
