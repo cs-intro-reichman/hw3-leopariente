@@ -6,7 +6,7 @@
 public class Algebra {
 	public static void main(String args[]) {
 		// Tests some of the operations
-		System.out.println(plus(2, 3)); // 2 + 3
+		System.out.println(plus(-1, -3)); // -1 -3
 		System.out.println(minus(7, 2)); // 7 - 2
 		System.out.println(minus(2, 7)); // 2 - 7
 		System.out.println(times(3, 4)); // 3 * 4
